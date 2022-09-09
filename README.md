@@ -1,16 +1,21 @@
 # flutter_ble_demo
 
-A new Flutter project.
+A new Flutter project that showcases a generic Bluetooth Low Energy (BLE) mobile application. The EFRConnect app by Silicon Labs and the nRFConnect app by Nordic Semiconductor were the main sources of inspiration for the development of this application. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project may be the starting point for Bluetooth Low Energy based mobile application development. This project shows general purpose scanning, connecting to the desired device, and showing the GATT services and properties of the chosen BLE device. Additionally, this application can function as a BLE GATT Client and carry out fundamental BLE GATT operations like Read, Write, Notify, and Indicate with a BLE GATT Server. 
 
-A few resources to get you started if this is your first Flutter project:
+Besides, there is a Class (Stateful Widget) that is commented out in the lib/screens/scan screen.dart file and can only scan the one targeted BLE device.
+The BLE device name is used to filter this scan.   
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+In order to make the application better in the future, I intend to keep working on this project. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Credits:
+
+I mainly took inspiration from the codebase of the following two GitHub repos for this project:
+
+https://github.com/jenow/flutter-ble
+https://github.com/pauldemarco/flutter_blue/tree/master/example
+
+Bravo for their excellent work! 
