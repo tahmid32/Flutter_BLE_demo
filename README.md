@@ -11,11 +11,12 @@ The BLE device name is used to filter this scan.
 
 In order to make the application better in the future, I intend to keep working on this project. 
 
-Credits:
+### Credits:
 
 I mainly took inspiration from the codebase of the following two GitHub repos for this project:
 
 https://github.com/jenow/flutter-ble
+
 https://github.com/pauldemarco/flutter_blue/tree/master/example
 
 Bravo for their excellent work! 
